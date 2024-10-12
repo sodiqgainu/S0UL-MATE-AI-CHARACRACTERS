@@ -14,7 +14,7 @@ import taylor from '../characters/Taylor.png'
 import rightarrow from '../../assets/rightarrow.svg'
 import { FaHeart,  FaShareAlt, FaShoppingCart, FaStar,  } from 'react-icons/fa'
 
-import './characters.css'
+import './Characters.css'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 
