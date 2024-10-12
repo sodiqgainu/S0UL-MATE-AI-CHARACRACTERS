@@ -1,0 +1,13 @@
+img{
+    width: 100%;
+}
+.avatars img{
+    transition: box-shadow,transform 0.3s ease;
+    border-radius: 20px;
+}
+.avatars img:hover{
+ 
+    box-shadow: 0px 0px 50px 7px rgba(135, 149, 206, 0.75);
+    transform: scale(1.2);
+
+}

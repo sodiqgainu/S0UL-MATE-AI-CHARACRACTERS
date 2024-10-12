@@ -1,0 +1,45 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  z-index: 10;
+}
+.hidden-menu{
+    display: none;
+}
+@media (max-width: 767px) {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+    }
+    .hidden-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        width:100%;
+        background-image: url('/src/designs/Group\ 38726.png');
+        background-color: rgb(6, 6, 61);
+        top:0;
+        height:100vh;
+        background-size: cover;
+        background-position: top left;
+        color: white;
+        font-size: 23px;
+        font-weight:600;
+        z-index: 1;
+    }
+    .show{
+        transition: right 0.5s ease;
+        right: 0%;
+    }
+    .hide{
+        transition: right 0.5s ease;
+        right:-100%;
+    }
+    
+}
