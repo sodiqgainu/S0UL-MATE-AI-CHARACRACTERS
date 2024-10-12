@@ -65,7 +65,7 @@ gsap.to(innovative.current,{
   y:0,
   opacity:1,
   duration:2,
-  delay:0.5,
+  delay:1,
   ease:'power1',
   scrollTrigger:{
     trigger: innovative.current,
