@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { FaBars, FaFacebook, FaInstagram, FaShoppingCart, FaTimes, FaTwitter } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { FaPeopleGroup, FaPerson } from 'react-icons/fa6'
+import {  FaPerson } from 'react-icons/fa6'
 const Navbar = () => {
 const [toggle, setToggle] = useState(false)
 

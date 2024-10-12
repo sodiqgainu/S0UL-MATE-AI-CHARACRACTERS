@@ -22,8 +22,7 @@ import './Home.css'
 
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
+
 const Home = () => {
 
 const companion = useRef(null)

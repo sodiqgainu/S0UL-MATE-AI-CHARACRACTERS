@@ -2,9 +2,8 @@ import React, { useRef } from 'react'
 import applegirl from '../../assets/applegirl.png'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
+
 const About = () => {
 const power = useRef()
 const sell = useRef()
