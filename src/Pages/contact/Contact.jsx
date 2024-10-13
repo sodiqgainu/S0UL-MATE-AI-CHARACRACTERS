@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='md:pt-[10rem]'>
+    <div className='pt-[10rem]'>
       <div className='grid lg:grid-cols-2 grid-cols-1 px-10 py-[3rem] max-w-[1300px] mx-auto text-[32px] font-[600] gap-10'>
 
         <div className='text-[#CDD4F0] text-center lg:text-left '>
