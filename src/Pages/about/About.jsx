@@ -84,10 +84,11 @@ gsap.from(girl.current,{
       <h2 className='text-white'><span className='text-[#9D67DA] font-[600]'>suscriban</span> al boletin</h2>
      </div>
 
-     <div className='flex justify-center mt-[5rem]'>
-       <form className='flex md:flex-row flex-col gap-5' action="">
-        <input type="text" className='bg-transparent border border-[#CDD4F0]  py-[16px] pr-[78px] pl-[30px] placeholder:font-normal text-2xl text-[#CDD4F0] rounded-[48px] text-[20px]' placeholder='Enter your email address' />
-        <button className='py-[18px] bg-[#CDD4F0] rounded-[48px] px-4 font-[600] text-[#141b30]'>Subscribe right now</button>
+     
+     <div className='flex justify-center mt-[3rem]  '>
+       <form className='flex md:flex-row flex-col gap-5 ' action="">
+        <input type="text" className='bg-transparent border border-[#CDD4F0]  py-[16px] px-4 placeholder:font-normal text-2xl text-[#CDD4F0] rounded-[48px] text-[20px]' placeholder='Enter your email address' />
+        <button className='py-[18px] bg-[#CDD4F0] rounded-[48px] px-2 font-[600] text-[#141b30]'>Subscribe right now</button>
        </form>
      </div>
     </div>
