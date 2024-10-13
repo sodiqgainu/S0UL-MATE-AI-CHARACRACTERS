@@ -17,10 +17,11 @@ const [toggle, setToggle] = useState(false)
         {
          toggle ?<FaTimes  onClick={handleToggle} className='text-gray-200 md:hidden block' size={22}/>:  <FaBars onClick={handleToggle} className='text-gray-200 md:hidden block' size={22}/> 
         }
-       <Link to='/'><h2 className='text-2xl font-semibold flex'><FaPerson/> CHAR</h2></Link>
+       <Link to='/' onClick={handleToggle}><h2 className='text-2xl font-semibold flex'><FaPerson/> CHAR</h2></Link>
       </div>
 
       <div className=' gap-10 text-sm md:flex hidden'>
+       
       <Link to='/about us' >About us</Link>
       <Link to='/characters' >Characters</Link>
       <Link to='/contact' >Contact</Link>
@@ -28,9 +29,9 @@ const [toggle, setToggle] = useState(false)
 
 {
    <div className={` gap-5 hidden-menu ${toggle ? 'show' : 'hide'}  text-slate-100`}>
-      <Link to='/about us' >About us</Link>
-      <Link to='/characters' >Characters</Link>
-      <Link to='/contact' >Contact</Link>
+      <Link to='/about us' onClick={handleToggle}>About us</Link>
+      <Link to='/characters' onClick={handleToggle} >Characters</Link>
+      <Link to='/contact' onClick={handleToggle} >Contact</Link>
 
    <div className='flex border items-center gap-10 relative py-2 px-3 rounded-full mt-[30px]'>
     <button className='text-sm font-thin '>View Cart</button>
