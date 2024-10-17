@@ -61,35 +61,22 @@ gsap.from(companion.current,{
   delay:2
 })
 
-gsap.to(innovative.current,{
-  y:0,
-  opacity:1,
-  duration:2,
-  delay:1,
-  ease:'power1',
-  scrollTrigger:{
-    trigger: innovative.current,
-    start: 'top 90%',
-    end: 'top 10%',
-    toggleActions: 'play none none reverse',
+// gsap.to(innovative.current,{
+//   y:0,
+//   opacity:1,
+//   duration:2,
+//   delay:1,
+//   ease:'power1',
+//   scrollTrigger:{
+//     trigger: innovative.current,
+//     start: 'top 90%',
+//     end: 'top 10%',
+//     toggleActions: 'play none none reverse',
    
-  }
-})
+//   }
+// })
 
-gsap.to('.images',{
-  y:-30,
- stagger:0.4,
-boxShadow:'0px 0px 50px 7px rgba(135, 149, 206, 0.75)',
-  ease:'power1.inOut',
-  scrollTrigger:{
-    scrub:true,
-    trigger: '.avatars',
-    start: 'top 90%',
-    // markers: true,
-    end: 'bottom 10%',
-    toggleActions: 'restart reverse play reverse',
-  }
-})
+
 
 // ScrollTrigger.create({
 //   trigger:'.avatars',
@@ -121,17 +108,17 @@ boxShadow:'0px 0px 50px 7px rgba(135, 149, 206, 0.75)',
   return (
     <div>
       <header className='text-white text-center  px-3 pt-[11rem]'>
-        <h1 className='text-2xl font-bold text-[#CDD4F0]' ref={discover}>Discover AI-generated</h1>
-        <h2 className='text-5xl mt-3 font-[600] text-[#9D67DA]' ref={virtual}>characters for virtual</h2>
-        <p className='text-2xl font-bold text-[#CDD4F0] mt-4' ref={companion}>companionship and friendship</p>
+        <h1 className='text-[36px] font-bold text-[#CDD4F0]' ref={discover}>Discover AI-generated</h1>
+        <h1 className='text-[64px]  font-[600] text-[#9D67DA]' ref={virtual}>characters for virtual</h1>
+        <h1 className='text-[36px] font-bold text-[#CDD4F0] ' ref={companion}>companionship and friendship</h1>
       </header>
 
-      <section className='max-w-[1000px] mx-auto mt-[3rem]'>
+      <section className='max-w-[1284px] mx-auto mt-[3rem]'>
         <img src={avatars} alt="" />
       </section>
 
-      <div className='max-w-[1038px] mx-auto px-2 mt-[3rem] text-center'>
-       <h2 className='text-[#CDD4F0] font-[400] opacity-0 translate-y-[100px]' ref={innovative}> Find your perfect virtual partner or friend through our innovative platform. Experience meaningful connections with AI-powered personalities. Explore the world of Soulmate AI today.</h2>
+      <div className='max-w-[1038px] h-[63px] align-middle mx-auto px-2 mt-[7rem] text-center'>
+       <h2 className='text-[#CDD4F0] font-[inter]   leading-[30px]' ref={innovative}> Find your perfect virtual partner or friend through our innovative platform. Experience meaningful <br /> connections with AI-powered personalities. Explore the world of Soulmate AI today.</h2>
       </div>
 
       <div className='mt-[7rem] max-w-[1038px] flex justify-between mx-auto px-4 '>
@@ -200,13 +187,15 @@ boxShadow:'0px 0px 50px 7px rgba(135, 149, 206, 0.75)',
         <h2 className='text-center md:text-[72px] text-[35px] font-semibold text-[#CDD4F033]'>TRUSTED 10,000+ COMPANY</h2>
       </div>
      
-     <div className='grid md:grid-cols-5 items-center grid-cols-3  px-7 max-w-[1095px] mx-auto lg:gap-[8rem] gap-[4rem] '>
+     <marquee behavior="" direction=''>
+     <div className='grid md:grid-cols-5 items-center grid-cols-3  px-7 max-w-[1095.48px] mx-auto lg:gap-[8rem] gap-[4rem] '>
       <img src={vector1} alt="" />
       <img src={vector2} alt="" />
       <img src={vector3} alt="" />
       <img src={vector4} alt="" />
       <img src={vector5} alt="" />
      </div>
+     </marquee>
 
      <div className='text-center lg:text-[56px] text-[30px] mt-[8rem] px-5'>
       <h2 className='text-white'>Let's try to manage your monthly</h2>
@@ -228,10 +217,10 @@ boxShadow:'0px 0px 50px 7px rgba(135, 149, 206, 0.75)',
       <h2 className='text-white'><span className='text-[#9D67DA] font-[600]'>suscriban</span> al boletin</h2>
      </div>
 
-     <div className='flex justify-center mt-[3rem]  '>
+     <div className='flex justify-center mt-[3rem]  max-w-[604px] mx-auto'>
        <form className='flex md:flex-row flex-col gap-5 ' action="">
-        <input type="text" className='bg-transparent border border-[#CDD4F0]  py-[16px] px-4 placeholder:font-normal text-2xl text-[#CDD4F0] rounded-[48px] text-[20px]' placeholder='Enter your email address' />
-        <button className='py-[18px] bg-[#CDD4F0] rounded-[48px] px-2 font-[600] text-[#141b30]'>Subscribe right now</button>
+        <input type="text" className='bg-transparent border border-[#CDD4F0]  py-[13px] px-4 pr-[100px] placeholder:font-normal text-xl text-[#CDD4F0] rounded-[48px] text-[20px]' placeholder='Enter your email address' />
+        <button className='py-[12px] bg-[#CDD4F0] rounded-[48px] px-5  font-[600] text-[#141b30]'>Subscribe right now</button>
        </form>
      </div>
 

@@ -38,10 +38,10 @@ const Contact = () => {
      </div>
 
     
-     <div className='flex justify-center mt-[3rem]  '>
+     <div className='flex justify-center mt-[3rem]  max-w-[604px] mx-auto'>
        <form className='flex md:flex-row flex-col gap-5 ' action="">
-        <input type="text" className='bg-transparent border border-[#CDD4F0]  py-[16px] px-4 placeholder:font-normal text-2xl text-[#CDD4F0] rounded-[48px] text-[20px]' placeholder='Enter your email address' />
-        <button className='py-[18px] bg-[#CDD4F0] rounded-[48px] px-2 font-[600] text-[#141b30]'>Subscribe right now</button>
+        <input type="text" className='bg-transparent border border-[#CDD4F0]  py-[13px] px-4 pr-[100px] placeholder:font-normal text-xl text-[#CDD4F0] rounded-[48px] text-[20px]' placeholder='Enter your email address' />
+        <button className='py-[12px] bg-[#CDD4F0] rounded-[48px] px-5  font-[600] text-[#141b30]'>Subscribe right now</button>
        </form>
      </div>
     </div>
